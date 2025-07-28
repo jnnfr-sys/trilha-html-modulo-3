@@ -44,8 +44,9 @@ figure img {
   max-width: 600px;   /* Tamanho máximo opcional */
   height: auto;       /* Mantém a proporção original */
   display: block;
-  margin: 0 auto;     /* Centraliza horizontalmente */
+  margin: 0 auto;     
 }
+
 
 figcaption {
   margin-top: 8px;

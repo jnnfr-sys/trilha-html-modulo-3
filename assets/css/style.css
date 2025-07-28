@@ -33,6 +33,22 @@ a { color:blue; text-decoration: none;}
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+
 figure {
-    text-align: center;
+  text-align: center; /* Centraliza o conteúdo dentro do figure */
+  margin: 20px auto;
+}
+
+figure img {
+  width: 70%;         /* Diminui o tamanho da imagem (ajuste como quiser) */
+  max-width: 600px;   /* Tamanho máximo opcional */
+  height: auto;       /* Mantém a proporção original */
+  display: block;
+  margin: 0 auto;     /* Centraliza horizontalmente */
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
 }
